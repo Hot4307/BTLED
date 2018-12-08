@@ -1,0 +1,28 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "LED"
+    },
+    "cordova-plugin-bluetooth-serial": {
+      "PACKAGE_NAME": "LED"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "file": "plugins/cordova-plugin-bluetooth-serial/www/bluetoothSerial.js",
+      "id": "cordova-plugin-bluetooth-serial.bluetoothSerial",
+      "pluginId": "cordova-plugin-bluetooth-serial",
+      "clobbers": [
+        "window.bluetoothSerial"
+      ]
+    }
+  ]
+}
